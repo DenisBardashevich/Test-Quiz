@@ -9,7 +9,7 @@ const Result = ({ correct, totalQuestions }) => {
             <h2 className="result_finish">
                 Вы отгадали {correct} ответа из {totalQuestions}{" "}
             </h2>
-            <a href="#">
+            <a href="https://denisbardashevich.github.io/Test-Quiz/">
                 <button className="btn_start">Попробовать снова</button>
             </a>
         </div>
